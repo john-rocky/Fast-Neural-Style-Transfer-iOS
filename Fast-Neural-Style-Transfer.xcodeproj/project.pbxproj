@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73CA5D1A2B6B33EC005AC3C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA5D192B6B33EC005AC3C0 /* AppDelegate.swift */; };
+		73CA5D1C2B6B33EC005AC3C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA5D1B2B6B33EC005AC3C0 /* SceneDelegate.swift */; };
+		73CA5D1E2B6B33EC005AC3C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA5D1D2B6B33EC005AC3C0 /* ViewController.swift */; };
+		73CA5D212B6B33EC005AC3C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CA5D1F2B6B33EC005AC3C0 /* Main.storyboard */; };
+		73CA5D232B6B33EE005AC3C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CA5D222B6B33EE005AC3C0 /* Assets.xcassets */; };
+		73CA5D262B6B33EE005AC3C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CA5D242B6B33EE005AC3C0 /* LaunchScreen.storyboard */; };
+		73CA5D312B6B33EE005AC3C0 /* Fast_Neural_Style_TransferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA5D302B6B33EE005AC3C0 /* Fast_Neural_Style_TransferTests.swift */; };
+		73CA5D3B2B6B33EE005AC3C0 /* Fast_Neural_Style_TransferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA5D3A2B6B33EE005AC3C0 /* Fast_Neural_Style_TransferUITests.swift */; };
+		73CA5D3D2B6B33EE005AC3C0 /* Fast_Neural_Style_TransferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA5D3C2B6B33EE005AC3C0 /* Fast_Neural_Style_TransferUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73CA5D2D2B6B33EE005AC3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73CA5D0E2B6B33EC005AC3C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73CA5D152B6B33EC005AC3C0;
+			remoteInfo = "Fast-Neural-Style-Transfer";
+		};
+		73CA5D372B6B33EE005AC3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73CA5D0E2B6B33EC005AC3C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73CA5D152B6B33EC005AC3C0;
+			remoteInfo = "Fast-Neural-Style-Transfer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73CA5D162B6B33EC005AC3C0 /* Fast-Neural-Style-Transfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast-Neural-Style-Transfer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CA5D192B6B33EC005AC3C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73CA5D1B2B6B33EC005AC3C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		73CA5D1D2B6B33EC005AC3C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73CA5D202B6B33EC005AC3C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73CA5D222B6B33EE005AC3C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73CA5D252B6B33EE005AC3C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73CA5D272B6B33EE005AC3C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73CA5D2C2B6B33EE005AC3C0 /* Fast-Neural-Style-TransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fast-Neural-Style-TransferTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CA5D302B6B33EE005AC3C0 /* Fast_Neural_Style_TransferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fast_Neural_Style_TransferTests.swift; sourceTree = "<group>"; };
+		73CA5D362B6B33EE005AC3C0 /* Fast-Neural-Style-TransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fast-Neural-Style-TransferUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CA5D3A2B6B33EE005AC3C0 /* Fast_Neural_Style_TransferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fast_Neural_Style_TransferUITests.swift; sourceTree = "<group>"; };
+		73CA5D3C2B6B33EE005AC3C0 /* Fast_Neural_Style_TransferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fast_Neural_Style_TransferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73CA5D132B6B33EC005AC3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CA5D292B6B33EE005AC3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CA5D332B6B33EE005AC3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73CA5D0D2B6B33EC005AC3C0 = {
+			isa = PBXGroup;
+			children = (
+				73CA5D182B6B33EC005AC3C0 /* Fast-Neural-Style-Transfer */,
+				73CA5D2F2B6B33EE005AC3C0 /* Fast-Neural-Style-TransferTests */,
+				73CA5D392B6B33EE005AC3C0 /* Fast-Neural-Style-TransferUITests */,
+				73CA5D172B6B33EC005AC3C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73CA5D172B6B33EC005AC3C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73CA5D162B6B33EC005AC3C0 /* Fast-Neural-Style-Transfer.app */,
+				73CA5D2C2B6B33EE005AC3C0 /* Fast-Neural-Style-TransferTests.xctest */,
+				73CA5D362B6B33EE005AC3C0 /* Fast-Neural-Style-TransferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73CA5D182B6B33EC005AC3C0 /* Fast-Neural-Style-Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				73CA5D192B6B33EC005AC3C0 /* AppDelegate.swift */,
+				73CA5D1B2B6B33EC005AC3C0 /* SceneDelegate.swift */,
+				73CA5D1D2B6B33EC005AC3C0 /* ViewController.swift */,
+				73CA5D1F2B6B33EC005AC3C0 /* Main.storyboard */,
+				73CA5D222B6B33EE005AC3C0 /* Assets.xcassets */,
+				73CA5D242B6B33EE005AC3C0 /* LaunchScreen.storyboard */,
+				73CA5D272B6B33EE005AC3C0 /* Info.plist */,
+			);
+			path = "Fast-Neural-Style-Transfer";
+			sourceTree = "<group>";
+		};
+		73CA5D2F2B6B33EE005AC3C0 /* Fast-Neural-Style-TransferTests */ = {
+			isa = PBXGroup;
+			children = (
+				73CA5D302B6B33EE005AC3C0 /* Fast_Neural_Style_TransferTests.swift */,
+			);
+			path = "Fast-Neural-Style-TransferTests";
+			sourceTree = "<group>";
+		};
+		73CA5D392B6B33EE005AC3C0 /* Fast-Neural-Style-TransferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73CA5D3A2B6B33EE005AC3C0 /* Fast_Neural_Style_TransferUITests.swift */,
+				73CA5D3C2B6B33EE005AC3C0 /* Fast_Neural_Style_TransferUITestsLaunchTests.swift */,
+			);
+			path = "Fast-Neural-Style-TransferUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73CA5D152B6B33EC005AC3C0 /* Fast-Neural-Style-Transfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CA5D402B6B33EE005AC3C0 /* Build configuration list for PBXNativeTarget "Fast-Neural-Style-Transfer" */;
+			buildPhases = (
+				73CA5D122B6B33EC005AC3C0 /* Sources */,
+				73CA5D132B6B33EC005AC3C0 /* Frameworks */,
+				73CA5D142B6B33EC005AC3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fast-Neural-Style-Transfer";
+			productName = "Fast-Neural-Style-Transfer";
+			productReference = 73CA5D162B6B33EC005AC3C0 /* Fast-Neural-Style-Transfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73CA5D2B2B6B33EE005AC3C0 /* Fast-Neural-Style-TransferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CA5D432B6B33EE005AC3C0 /* Build configuration list for PBXNativeTarget "Fast-Neural-Style-TransferTests" */;
+			buildPhases = (
+				73CA5D282B6B33EE005AC3C0 /* Sources */,
+				73CA5D292B6B33EE005AC3C0 /* Frameworks */,
+				73CA5D2A2B6B33EE005AC3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73CA5D2E2B6B33EE005AC3C0 /* PBXTargetDependency */,
+			);
+			name = "Fast-Neural-Style-TransferTests";
+			productName = "Fast-Neural-Style-TransferTests";
+			productReference = 73CA5D2C2B6B33EE005AC3C0 /* Fast-Neural-Style-TransferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73CA5D352B6B33EE005AC3C0 /* Fast-Neural-Style-TransferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CA5D462B6B33EE005AC3C0 /* Build configuration list for PBXNativeTarget "Fast-Neural-Style-TransferUITests" */;
+			buildPhases = (
+				73CA5D322B6B33EE005AC3C0 /* Sources */,
+				73CA5D332B6B33EE005AC3C0 /* Frameworks */,
+				73CA5D342B6B33EE005AC3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73CA5D382B6B33EE005AC3C0 /* PBXTargetDependency */,
+			);
+			name = "Fast-Neural-Style-TransferUITests";
+			productName = "Fast-Neural-Style-TransferUITests";
+			productReference = 73CA5D362B6B33EE005AC3C0 /* Fast-Neural-Style-TransferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73CA5D0E2B6B33EC005AC3C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					73CA5D152B6B33EC005AC3C0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					73CA5D2B2B6B33EE005AC3C0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 73CA5D152B6B33EC005AC3C0;
+					};
+					73CA5D352B6B33EE005AC3C0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 73CA5D152B6B33EC005AC3C0;
+					};
+				};
+			};
+			buildConfigurationList = 73CA5D112B6B33EC005AC3C0 /* Build configuration list for PBXProject "Fast-Neural-Style-Transfer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73CA5D0D2B6B33EC005AC3C0;
+			productRefGroup = 73CA5D172B6B33EC005AC3C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73CA5D152B6B33EC005AC3C0 /* Fast-Neural-Style-Transfer */,
+				73CA5D2B2B6B33EE005AC3C0 /* Fast-Neural-Style-TransferTests */,
+				73CA5D352B6B33EE005AC3C0 /* Fast-Neural-Style-TransferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73CA5D142B6B33EC005AC3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CA5D262B6B33EE005AC3C0 /* LaunchScreen.storyboard in Resources */,
+				73CA5D232B6B33EE005AC3C0 /* Assets.xcassets in Resources */,
+				73CA5D212B6B33EC005AC3C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CA5D2A2B6B33EE005AC3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CA5D342B6B33EE005AC3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73CA5D122B6B33EC005AC3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CA5D1E2B6B33EC005AC3C0 /* ViewController.swift in Sources */,
+				73CA5D1A2B6B33EC005AC3C0 /* AppDelegate.swift in Sources */,
+				73CA5D1C2B6B33EC005AC3C0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CA5D282B6B33EE005AC3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CA5D312B6B33EE005AC3C0 /* Fast_Neural_Style_TransferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CA5D322B6B33EE005AC3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CA5D3D2B6B33EE005AC3C0 /* Fast_Neural_Style_TransferUITestsLaunchTests.swift in Sources */,
+				73CA5D3B2B6B33EE005AC3C0 /* Fast_Neural_Style_TransferUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73CA5D2E2B6B33EE005AC3C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73CA5D152B6B33EC005AC3C0 /* Fast-Neural-Style-Transfer */;
+			targetProxy = 73CA5D2D2B6B33EE005AC3C0 /* PBXContainerItemProxy */;
+		};
+		73CA5D382B6B33EE005AC3C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73CA5D152B6B33EC005AC3C0 /* Fast-Neural-Style-Transfer */;
+			targetProxy = 73CA5D372B6B33EE005AC3C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73CA5D1F2B6B33EC005AC3C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73CA5D202B6B33EC005AC3C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73CA5D242B6B33EE005AC3C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73CA5D252B6B33EE005AC3C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73CA5D3E2B6B33EE005AC3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73CA5D3F2B6B33EE005AC3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73CA5D412B6B33EE005AC3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fast-Neural-Style-Transfer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Fast-Neural-Style-Transfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73CA5D422B6B33EE005AC3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fast-Neural-Style-Transfer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Fast-Neural-Style-Transfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73CA5D442B6B33EE005AC3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Fast-Neural-Style-TransferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fast-Neural-Style-Transfer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fast-Neural-Style-Transfer";
+			};
+			name = Debug;
+		};
+		73CA5D452B6B33EE005AC3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Fast-Neural-Style-TransferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fast-Neural-Style-Transfer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fast-Neural-Style-Transfer";
+			};
+			name = Release;
+		};
+		73CA5D472B6B33EE005AC3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Fast-Neural-Style-TransferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fast-Neural-Style-Transfer";
+			};
+			name = Debug;
+		};
+		73CA5D482B6B33EE005AC3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.Fast-Neural-Style-TransferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fast-Neural-Style-Transfer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73CA5D112B6B33EC005AC3C0 /* Build configuration list for PBXProject "Fast-Neural-Style-Transfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CA5D3E2B6B33EE005AC3C0 /* Debug */,
+				73CA5D3F2B6B33EE005AC3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73CA5D402B6B33EE005AC3C0 /* Build configuration list for PBXNativeTarget "Fast-Neural-Style-Transfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CA5D412B6B33EE005AC3C0 /* Debug */,
+				73CA5D422B6B33EE005AC3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73CA5D432B6B33EE005AC3C0 /* Build configuration list for PBXNativeTarget "Fast-Neural-Style-TransferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CA5D442B6B33EE005AC3C0 /* Debug */,
+				73CA5D452B6B33EE005AC3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73CA5D462B6B33EE005AC3C0 /* Build configuration list for PBXNativeTarget "Fast-Neural-Style-TransferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CA5D472B6B33EE005AC3C0 /* Debug */,
+				73CA5D482B6B33EE005AC3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73CA5D0E2B6B33EC005AC3C0 /* Project object */;
+}
